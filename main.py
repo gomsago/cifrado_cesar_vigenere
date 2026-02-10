@@ -14,7 +14,6 @@ def cesar(message, passcode):
 
 def cesarCipher():
     message = input("Ingrese el mensaje que quiere cifrar: ").lower()
-    print()
     passcode = int(input("Ingrese la clave numérica para el cifrado: "))
 
     encrypted = cesar(message, passcode)
@@ -46,6 +45,7 @@ def cesarDecryption():
 while True:
 
     print('''
+    
 Menú cifrado césar: 
     1. Cifrar un mensaje
     2. Descifrar un mensaje
